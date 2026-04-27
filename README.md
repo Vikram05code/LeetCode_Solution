@@ -25,7 +25,7 @@ This repository contains my solutions to LeetCode problems as part of my Data St
 | Difficulty | Solved |
 | ---------- | ------ |
 | Easy       | 7      |
-| Medium     | 3      |
+| Medium     | 4      |
 | Hard       | 0      |
 
 ---
