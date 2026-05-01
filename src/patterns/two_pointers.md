@@ -13,3 +13,17 @@ Since the array is sorted, we can use two pointers from both ends instead of bru
 ##  Important
 - Use start < end (cannot use same element twice)
 - Return 1-based indices
+- -----------------------------------------------------------------------------------------------------------------------
+
+##  Problem
+26 - Remove Duplicates from Sorted Array
+
+##  Key Insight
+Sorted array → duplicates are adjacent
+
+##  Strategy
+- Compare current with previous
+- Keep only unique elements
+
+##  Important
+Use two pointers (read + write)
