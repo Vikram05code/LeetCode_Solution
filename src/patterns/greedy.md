@@ -10,4 +10,15 @@ The idea is to minimize the total sum by arranging digits smartly. Smaller digit
 - Make sure smaller digits are used in the tens place
 
 ##  Learning
-This is a classic greedy approach — making the best choice at each step (picking smaller digits first) leads to the overall minimum sum.
+This is a classic greedy approach — making the best choice at each step (picking smaller digits first) leads to the overall minimum sum.  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Problem
+13 - Roman to Integer
+
+## Key Insight
+If current value < next → subtract, else add.
+
+## Strategy
+- Traverse string
+- Compare with next element
