@@ -11,3 +11,16 @@ Reduce exponent by half using divide and conquer.
 
 ##  Important
 Handle negative exponent using reciprocal
+
+---------------------------------------------------------------------------------------
+##  Missing Number
+268 - Missing Number
+###  Idea
+Expected sum - actual sum = missing number
+
+### Formula
+n * (n + 1) / 2
+
+### Complexity
+- Time: O(n)
+- Space: O(1)
