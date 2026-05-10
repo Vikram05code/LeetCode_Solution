@@ -27,3 +27,12 @@ Sorted array → duplicates are adjacent
 
 ##  Important
 Use two pointers (read + write)
+
+------------------------------------------------------------------------------------------------------------------------
+
+## Subsequence Matching
+392 - Is Subsequence
+- Use two pointers
+- Move both on match
+- Move target pointer on mismatch
+- Preserve order
