@@ -11,3 +11,21 @@
 
 ```java
 freq[ch - 'a']++;
+--------------------------------------------------------------------------------------------------------------------------------
+
+## Anagram Check
+242 - Valid Anagram
+### 💡 Idea
+Increment for first string,
+decrement for second string.
+
+If all counts become zero:
+strings are anagrams.
+
+---
+
+### Common Trick
+
+```java
+freq[s.charAt(i) - 'a']++;
+freq[t.charAt(i) - 'a']--;
