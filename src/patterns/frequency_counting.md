@@ -29,3 +29,13 @@ strings are anagrams.
 ```java
 freq[s.charAt(i) - 'a']++;
 freq[t.charAt(i) - 'a']--;
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+## Palindrome Pairing Trick
+409 - Longest Palindrome
+- Palindrome mostly uses pairs
+- Even counts fully usable
+- Odd counts contribute:
+    count - 1
+- One odd character allowed in center
