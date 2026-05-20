@@ -25,3 +25,15 @@ At every element:
 
 Classic:
 choose → recurse → backtrack
+
+--------------------------------------------------------------------------------------------------------------
+## Permutation Generation
+
+At every step:
+- choose unused element
+- recurse
+- backtrack
+
+Difference from subsets:
+- subsets use forward traversal
+- permutations try every unused choice
