@@ -14,3 +14,14 @@ Used in:
 - N Queens
 - Sudoku
 - Combination Sum
+
+--------------------------------------------------------------------------------------------------------------
+## Subset Generation
+78 - Subsets
+At every element:
+- pick
+  OR
+- skip
+
+Classic:
+choose → recurse → backtrack
